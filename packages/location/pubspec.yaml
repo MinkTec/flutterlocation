@@ -15,12 +15,6 @@ flutter:
       android:
         package: com.lyokone.location
         pluginClass: LocationPlugin
-      ios:
-        pluginClass: LocationPlugin
-      macos:
-        pluginClass: LocationPlugin
-      web:
-        default_package: location_web
 
 dependencies:
   flutter:
@@ -29,7 +23,7 @@ dependencies:
   location_web: ^5.0.4
 dev_dependencies:
   async: ^2.11.0
-  build_runner: ^2.4.11
+  build_runner: ^2.4.7
   flutter_test:
     sdk: flutter
   leancode_lint: ^13.0.0
